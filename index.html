@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="pokebola.png">
+    <title>Pokédex Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="pokedex-container">
+        <header>
+            <div class="titulo">
+                <h1>Pokédex Digital</h1>
+                <img src="pokebola.png" alt="Pokébola" class="pokebola">
+            </div>
+            <p>Digite o nome ou número do Pokémon</p>
+        </header>
+        <!-- Área de Busca -->
+        <section class="search-area">
+            <input type="text" id="inputPokemon"
+                placeholder="Ex: pikachu ou 25">
+            <button id="botaoBuscar">Buscar</button>
+        </section>
+
+        <!-- Mensagem de Carregamento/Erro -->
+        <p id="mensagemErro" class="oculto">Carregando...</p>
+        <!-- Cartão do Resultado (Oculto inicialmente) -->
+        <section id="cardPokemon" class="pokemon-card oculto">
+            <img id="imagemPokemon" src="" alt="Imagem do Pokémon">
+            <div class="info">
+                <span id="numeroPokemon" class="badge">#000</span>
+                <h2 id="nomePokemon">Nome</h2>
+                <p>Tipo: <strong id="tipoPokemon">---</strong></p>
+                <p>Peso: <strong id="pesoPokemon">---</strong> kg</p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
