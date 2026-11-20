@@ -6,6 +6,8 @@
 
 Pokédex feita com HTML, CSS e JavaScript puro. Você digita o nome ou o número de um Pokémon e ela mostra a imagem, o número, o nome, o peso e os tipos, buscando os dados na [PokéAPI](https://pokeapi.co/).
 
+🔗 **Ver online:** https://santosmiqueias.github.io/Projeto-Pokedex/
+
 ## Funcionalidades
 
 - Busca por **nome** (`pikachu`) ou **número** (`25` ou `025`; os zeros à esquerda são removidos)
