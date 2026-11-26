@@ -40,3 +40,7 @@ style.css     estilos do card e cores
 script.js     busca na PokéAPI e exibição do resultado
 pokebola.png  imagem reserva
 ```
+
+## Licença
+
+Código sob a licença [MIT](LICENSE).
