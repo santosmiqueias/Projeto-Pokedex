@@ -8,6 +8,8 @@ Pokédex feita com HTML, CSS e JavaScript puro. Você digita o nome ou o número
 
 🔗 **Ver online:** https://santosmiqueias.github.io/Projeto-Pokedex/
 
+![Busca pelo Pikachu na Pokédex](docs/print-busca.jpg)
+
 ## Funcionalidades
 
 - Busca por **nome** (`pikachu`) ou **número** (`25` ou `025`; os zeros à esquerda são removidos)
